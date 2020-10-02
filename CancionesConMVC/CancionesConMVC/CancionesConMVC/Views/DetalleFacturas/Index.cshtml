@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CancionesConMVC.Models.DetalleFactura>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Factura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cancion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioUnidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cantidad)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Factura.FacturaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cancion.CancionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioUnidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cantidad)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DetFacturaId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DetFacturaId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DetFacturaId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
