@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="456bfc2a-2a0f-40fe-8ca0-e878114d25c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/CancionesConMVC/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CancionesConMVC/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CancionesConMVC/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CancionesConMVC/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CancionesConMVC/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CancionesConMVC/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/Controllers/ArtistasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/Controllers/ArtistasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/bin/Debug/netcoreapp3.1/CancionesConMVC.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/CancionesConMVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/CancionesConMVC.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/CancionesConMVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/CancionesConMVC.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/CancionesConMVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Albums/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Artistas/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Canciones/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Clientes/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/DetalleFacturas/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Empleados/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Facturas/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Generos/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CancionesConMVC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CancionesConMVC/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iMX7hnVbwO6gkO3oSzMizIfxg2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1601718294638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601718294638</updated>
+      <workItem from="1601718317779" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

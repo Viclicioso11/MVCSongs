@@ -19,10 +19,27 @@ namespace CancionesConMVC.Controllers
         }
 
         // GET: Empleados
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pagina = 1)
         {
-            var applicationDbContext = _context.Empleados.Include(e => e.EmpleadoJefe);
-            return View(await applicationDbContext.ToListAsync());
+            var totalDeRegistros = _context.Empleados.Count();
+
+            var empleados = _context.Empleados.OrderBy(empleado => empleado.Nombres)
+                .Skip((pagina - 1) * 5)
+                .Take(5)
+                .ToList();
+
+            var totalPaginas = (int)Math.Ceiling((double)totalDeRegistros / 5);
+
+            var paginador = new PaginadorGenerico<Empleado>()
+            {
+                RegistrosPorPagina = 5,
+                TotalRegistros = totalDeRegistros,
+                TotalPaginas = totalPaginas,
+                PaginaActual = pagina,
+                Resultado = empleados
+            };
+
+            return View(paginador);
         }
 
         // GET: Empleados/Details/5

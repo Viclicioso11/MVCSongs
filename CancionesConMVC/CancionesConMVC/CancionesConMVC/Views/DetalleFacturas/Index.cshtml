@@ -1,10 +1,10 @@
-﻿@model IEnumerable<CancionesConMVC.Models.DetalleFactura>
+﻿@model PaginadorGenerico<DetalleFactura>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Detalles de Facturas</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,41 +13,94 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Factura)
+                Factura
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cancion)
+                Canción
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PrecioUnidad)
+                Precio Unidad
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cantidad)
+                Cantidad
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Factura.FacturaId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cancion.CancionId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PrecioUnidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.DetFacturaId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DetFacturaId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DetFacturaId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.Resultado)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Factura.FacturaId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cancion.CancionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrecioUnidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cantidad)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DetFacturaId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.DetFacturaId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DetFacturaId">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@if (Model.Resultado.Count() > 0)
+{
+    <span>
+        <strong>@Model.TotalRegistros</strong> registros encontrados
+    </span>
+    <span>&nbsp;|&nbsp;</span>
+    <span>
+        Página <strong>@(Model.PaginaActual)</strong> de
+        <strong>@Model.TotalPaginas</strong>
+    </span>
+    <span>&nbsp;|&nbsp;</span>
+}
+else
+{
+    <span>No hay resultados para esta búsqueda</span>
+    <span>&nbsp;|&nbsp;</span>
+}
+
+@if (Model.PaginaActual > 1)
+{
+    @Html.ActionLink("<<", "Index", new { pagina = 1 },
+                    new { @class = "btn btn-sm btn-default" })
+    <span></span>
+    @Html.ActionLink("Anterior", "Index", new { pagina = Model.PaginaActual - 1 },
+                    new { @class = "btn btn-sm btn-default" })
+}
+else
+{
+    @Html.ActionLink("<<", "Index", new { pagina = 1 },
+                    new { @class = "btn btn-sm btn-default disabled" })
+    <span></span>
+    @Html.ActionLink("Anterior", "Index", new { pagina = 1 },
+                    new { @class = "btn btn-sm btn-default disabled" })
+}
+<span></span>
+@if (Model.PaginaActual < Model.TotalPaginas)
+{
+    @Html.ActionLink("Siguiente", "Index", new { pagina = Model.PaginaActual + 1 },
+                    new { @class = "btn btn-sm btn-default" })
+    <span></span>
+    @Html.ActionLink(">>", "Index", new { pagina = Model.TotalPaginas },
+                    new { @class = "btn btn-sm btn-default" })
+}
+else
+{
+    @Html.ActionLink("Siguiente", "Index", new { pagina = Model.TotalPaginas - 1 },
+                    new { @class = "btn btn-sm btn-default disabled" })
+    <span></span>
+    @Html.ActionLink(">>", "Index", new { pagina = Model.TotalPaginas },
+                    new { @class = "btn btn-sm btn-default disabled" })
+}

@@ -19,10 +19,27 @@ namespace CancionesConMVC.Controllers
         }
 
         // GET: Canciones
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pagina = 1)
         {
-            var applicationDbContext = _context.Canciones.Include(c => c.Album).Include(c => c.Genero);
-            return View(await applicationDbContext.ToListAsync());
+            var totalDeRegistros = _context.Canciones.Count();
+
+            var canciones = _context.Canciones.OrderBy(cancion => cancion.Nombre)
+                .Skip((pagina - 1) * 5)
+                .Take(5)
+                .ToList();
+
+            var totalPaginas = (int)Math.Ceiling((double)totalDeRegistros / 5);
+
+            var paginador = new PaginadorGenerico<Cancion>()
+            {
+                RegistrosPorPagina = 5,
+                TotalRegistros = totalDeRegistros,
+                TotalPaginas = totalPaginas,
+                PaginaActual = pagina,
+                Resultado = canciones
+            };
+
+            return View(paginador);
         }
 
         // GET: Canciones/Details/5

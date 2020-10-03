@@ -26,7 +26,7 @@ namespace CancionesConMVC
         public void ConfigureServices(IServiceCollection services)
         {
             //Configuration.GetConnectionString("ConnectionString")
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server = DESKTOP-BKFVL1D; Database = Chinook; trusted_connection = true; User Id = admin; password = 123"));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server = 'DESKTOP-1MNK0UU\\SQLEXPRESS'; Database = Chinook; trusted_connection = true"));
             services.AddControllersWithViews();
         }
 
