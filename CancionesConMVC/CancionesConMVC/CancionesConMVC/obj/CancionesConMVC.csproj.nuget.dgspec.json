@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bryan\\Documents\\Code\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj": {}
+    "C:\\Users\\Bryan\\Documents\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bryan\\Documents\\Code\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj": {
+    "C:\\Users\\Bryan\\Documents\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bryan\\Documents\\Code\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Bryan\\Documents\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj",
         "projectName": "CancionesConMVC",
-        "projectPath": "C:\\Users\\Bryan\\Documents\\Code\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj",
+        "projectPath": "C:\\Users\\Bryan\\Documents\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bryan\\Documents\\Code\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\obj\\",
+        "outputPath": "C:\\Users\\Bryan\\Documents\\MVCSongs\\CancionesConMVC\\CancionesConMVC\\CancionesConMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,7 +7,7 @@
 <h1>Empleados</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Agregar un nuevo empleado</a>
 </p>
 <table class="table">
     <thead>
@@ -56,9 +56,9 @@
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.EmpleadoId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.EmpleadoId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.EmpleadoId">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.EmpleadoId">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.EmpleadoId">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EmpleadoId">Eliminar</a>
                 </td>
             </tr>
         }

@@ -56,6 +56,7 @@ namespace CancionesConMVC.Controllers
 
             var cancion = await _context.Canciones
                 .Include(c => c.Album)
+                .Include(c => c.Album.Artista)
                 .Include(c => c.Genero)
                 .FirstOrDefaultAsync(m => m.CancionId == id);
             if (cancion == null)
@@ -157,6 +158,7 @@ namespace CancionesConMVC.Controllers
 
             var cancion = await _context.Canciones
                 .Include(c => c.Album)
+                .Include(c => c.Album.Artista)
                 .Include(c => c.Genero)
                 .FirstOrDefaultAsync(m => m.CancionId == id);
             if (cancion == null)

@@ -7,7 +7,7 @@
 <h1>Detalles de Facturas</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Agregar nuevo detalle de factura</a>
 </p>
 <table class="table">
     <thead>
@@ -44,9 +44,9 @@
                     @Html.DisplayFor(modelItem => item.Cantidad)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.DetFacturaId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.DetFacturaId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.DetFacturaId">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.DetFacturaId">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.DetFacturaId">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DetFacturaId">Eliminar</a>
                 </td>
             </tr>
         }
