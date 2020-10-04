@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CancionesConMVC.Models;
 
@@ -23,7 +21,8 @@ namespace CancionesConMVC.Controllers
         {
             var totalDeRegistros = _context.Artistas.Count();
 
-            var artistas = _context.Artistas.OrderBy(artista => artista.Nombre)
+            var artistas = _context.Artistas
+                .OrderBy(artista => artista.Nombre)
                 .Skip((pagina - 1) * 5)
                 .Take(5)
                 .ToList();

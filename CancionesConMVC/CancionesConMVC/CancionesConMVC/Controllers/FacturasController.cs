@@ -23,7 +23,9 @@ namespace CancionesConMVC.Controllers
         {
             var totalDeRegistros = _context.Facturas.Count();
 
-            var facturas = _context.Facturas.OrderBy(factura => factura.FechaFactura)
+            var facturas = _context.Facturas
+                .Include(factura => factura.Cliente)
+                .OrderBy(factura => factura.FechaFactura)
                 .Skip((pagina - 1) * 5)
                 .Take(5)
                 .ToList();

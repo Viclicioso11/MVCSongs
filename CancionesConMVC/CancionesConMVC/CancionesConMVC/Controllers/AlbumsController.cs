@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -23,13 +22,14 @@ namespace CancionesConMVC.Controllers
         {
             var totalDeRegistros = _context.Albums.Count();
 
-            //var applicationDbContext = _context.Albums.Include(a => a.Artista);
+            // var applicationDbContext = _context.Albums.Include(a => a.Artista);
 
-            var albumes = _context.Albums.OrderBy(x => x.Titulo)
-                                                 .Skip((pagina - 1) * 5)
-                                                 .Take(5)
-                                                 .ToList();
-
+            var albumes = _context.Albums
+                .Include(album => album.Artista)
+                .OrderBy(album => album.Titulo)
+                .Skip((pagina - 1) * 5)
+                .Take(5)
+                .ToList();
 
             var totalPaginas = (int)Math.Ceiling((double)totalDeRegistros / 5);
 
@@ -43,7 +43,7 @@ namespace CancionesConMVC.Controllers
             };
 
             return View(paginador);
-            //return View(await applicationDbContext.ToListAsync());
+            // return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Albums/Details/5

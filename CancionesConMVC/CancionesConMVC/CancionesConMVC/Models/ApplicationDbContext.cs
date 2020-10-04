@@ -12,8 +12,6 @@ namespace CancionesConMVC.Models
         {
                                                                                                                                            
         }
-
-
         public DbSet<Album> Albums { get; set; }
 
         public DbSet<Artista> Artistas { get; set; }

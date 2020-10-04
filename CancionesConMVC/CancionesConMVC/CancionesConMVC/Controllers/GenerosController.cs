@@ -23,7 +23,8 @@ namespace CancionesConMVC.Controllers
         {
             var totalDeRegistros = _context.Generos.Count();
 
-            var generos = _context.Generos.OrderBy(genero => genero.Nombre)
+            var generos = _context.Generos
+                .OrderBy(genero => genero.Nombre)
                 .Skip((pagina - 1) * 5)
                 .Take(5)
                 .ToList();

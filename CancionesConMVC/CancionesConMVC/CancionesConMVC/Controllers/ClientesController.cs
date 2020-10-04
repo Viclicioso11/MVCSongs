@@ -23,7 +23,9 @@ namespace CancionesConMVC.Controllers
         {
             var totalDeRegistros = _context.Clientes.Count();
 
-            var clientes = _context.Clientes.OrderBy(cliente => cliente.Nombres)
+            var clientes = _context.Clientes
+                .Include(cliente => cliente.Empleado)
+                .OrderBy(cliente => cliente.Nombres)
                 .Skip((pagina - 1) * 5)
                 .Take(5)
                 .ToList();

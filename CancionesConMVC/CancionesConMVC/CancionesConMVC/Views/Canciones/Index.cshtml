@@ -19,6 +19,9 @@
                 Album
             </th>
             <th>
+                Artista
+            </th>
+            <th>
                 Género
             </th>
             <th></th>
@@ -27,22 +30,25 @@
     <tbody>
         @foreach (var item in Model.Resultado)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nombre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Album.AlbumId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Genero.GeneroId)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.CancionId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.CancionId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.CancionId">Delete</a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Album.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Album.Artista.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CancionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CancionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CancionId">Delete</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
