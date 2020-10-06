@@ -19,7 +19,7 @@ namespace CancionesConMVC.Controllers
         }
 
         // GET: Generos
-        public async Task<IActionResult> Index(int pagina = 1)
+        public IActionResult Index(int pagina = 1)
         {
             var totalDeRegistros = _context.Generos.Count();
 
